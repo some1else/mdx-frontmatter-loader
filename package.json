@@ -1,0 +1,29 @@
+{
+  "name": "mdx-frontmatter-loader",
+  "version": "0.1.1",
+  "description": "frontmatter loader for @mdx-js",
+  "license": "MIT",
+  "repository": "some1else/mdx-frontmatter-loader",
+  "author": "some1else",
+  "homepage": "https://github.com/some1else/mdx-frontmatter-loader",
+  "bugs": "https://github.com/some1else/mdx-frontmatter-loader/issues",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 6.9.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "webpack",
+    "mdx",
+    "frontmatter"
+  ],
+  "peerDependencies": {
+    "webpack": "^3.0.0",
+    "remark-frontmatter": "^1.2.0"
+  },
+  "dependencies": {
+    "front-matter": "^2.1.2",
+  }
+}
