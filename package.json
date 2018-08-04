@@ -24,6 +24,6 @@
     "remark-frontmatter": "^1.2.0"
   },
   "dependencies": {
-    "front-matter": "^2.1.2",
+    "front-matter": "^2.1.2"
   }
 }
