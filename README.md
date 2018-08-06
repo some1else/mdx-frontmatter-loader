@@ -53,14 +53,18 @@ npm install --save mdx-frontmtter-loader
 Import both the Mdx component and front-matter attributes:
 
 ```
-import WhateverMarkdown, { attributes as whateverMetadata } from './whatever.md'
+import ArticleMarkdown, { attributes as articleMetadata } from './article.md'
 ```
 
 Then use in JSX like so:
 
 ```
-<h1>{ whateverMetadata.title }</h1>
-<WhateverMarkdown />
+const article = (
+  <article>
+    <h1>{ articleMetadata.title }</h1>
+    <ArticleMarkdown />
+  </article>
+)
 ```
 
 ---
