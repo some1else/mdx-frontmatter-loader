@@ -1,6 +1,6 @@
 # mdx-frontmatter-loader
 
-Use to add front-matter to @mdx-js exports.
+Adds front-matter to @mdx-js exports.
 
 Dependencies:
 
@@ -15,7 +15,7 @@ Dependencies:
   use: [
     'babel-loader',
     {
-      // Adds frontmatter to export
+      // Adds front-matter to export
       loader: 'mdx-frontmatter-loader',
     },
     {
@@ -23,7 +23,7 @@ Dependencies:
       options: {
         mdPlugins: [
           [
-            // Remove frontMatter from body output
+            // Removes front-matter from Markdown output
             require('remark-frontmatter'), 
             { type: 'yaml', marker: '-', fence: '---' },
           ],
@@ -37,7 +37,7 @@ Dependencies:
 ## Usage
 
 
-Import both Mdx component and frontmatter attributes:
+Import both the Mdx component and front-matter attributes:
 
 ```
 import WhateverMarkdown, { attributes as whateverMetadata } from './whatever.md'
@@ -49,5 +49,7 @@ Then use in JSX like so:
 <h1>{ whateverMetadata.title }</h1>
 <WhateverMarkdown />
 ```
+
+---
 
 MIT (c) some1else
