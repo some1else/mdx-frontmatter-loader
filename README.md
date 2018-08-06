@@ -7,7 +7,20 @@ Dependencies:
 - `remark-frontmatter`
 - `front-matter`
 
-## Config
+## Install
+
+```
+yarn add mdx-frontmatter-loader
+```
+
+or
+
+
+```
+npm install --save mdx-frontmtter-loader
+```
+
+## Configure Webpack
 
 ```
 {
@@ -34,7 +47,7 @@ Dependencies:
 },
 ```
 
-## Usage
+## Usage in React
 
 
 Import both the Mdx component and front-matter attributes:
